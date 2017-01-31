@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { MomentModule } from 'angular2-moment';
 import { AgmCoreModule } from 'angular2-google-maps/core';
-import { AppComponent } from './app.component';
+import { AppComponent } from './components/app/app.component';
 
 @NgModule({
   declarations: [
