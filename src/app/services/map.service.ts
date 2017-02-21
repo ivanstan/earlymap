@@ -50,6 +50,8 @@ export class MapService {
         this.map.setCenter(newCenter);
       }
     });
+
+    return this.map;
   }
 
 }
